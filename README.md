@@ -1,1 +1,1 @@
-# Navigator
+# simple Navigator
