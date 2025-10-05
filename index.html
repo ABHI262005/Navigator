@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toggle Navigation Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Toggle Checkbox -->
+  <input type="checkbox" id="menu-toggle" hidden>
+
+  <!-- Hamburger Icon -->
+  <label for="menu-toggle" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <!-- Navigation Menu -->
+  <nav class="nav">
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li class="has-submenu">
+        <a href="#">Clients ▾</a>
+        <ul class="submenu">
+          <li><a href="#">Burger King</a></li>
+          <li><a href="#">Southwest Airlines</a></li>
+          <li><a href="#">Levi Strauss</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu">
+        <a href="#">Services ▾</a>
+        <ul class="submenu">
+          <li><a href="#">Print Design</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">App Development</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Content -->
+  <main class="content">
+    <h1>Toggle Navigation Menu</h1>
+    <p>Click the hamburger icon (top-right) to open or close the menu. Hover over text to see the white glow effect.</p>
+  </main>
+
+</body>
+</html>
